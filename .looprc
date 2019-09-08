@@ -1,0 +1,3 @@
+{
+  "ignore": [ "meta", ".git", ".vagrant", ".vscode", "node_modules" ]
+}
