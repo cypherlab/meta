@@ -6,3 +6,7 @@
 node_modules
 package-lock.json
 code/utils/geocode/
+/code/utils/js-utils/
+/code/react/react-table/
+/code/react/react-starter-kit/
+/code/utils/esm-import/

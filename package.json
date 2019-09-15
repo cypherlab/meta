@@ -1,14 +1,28 @@
 {
-  "name": "meta",
-  "version": "1.0.1",
+  "name": "_cypherlab",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Louis Grellet <as1cron@gmail.com>",
   "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @babel/node scripts/readme.js",
+    "prepare": "yarn run build",
+    "release": ""
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "meta-yarn": "^1.1.2"
+  },
+  "dependencies": {
+    "execa": "^2.0.4",
+    "readdirp": "^3.1.2"
   }
 }
