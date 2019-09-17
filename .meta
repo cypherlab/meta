@@ -4,6 +4,7 @@
     "code/utils/js-utils": "git@github.com:cypherlab/js-utils.git",
     "code/utils/esm-import": "git@github.com:cypherlab/esm-import.git",
     "code/react/react-table": "git@github.com:cypherlab/react-table.git",
+    "code/react/react-stepbar": "git@github.com:cypherlab/react-stepbar.git",
     "code/react/react-starter-kit": "git@github.com:cypherlab/react-starter-kit.git"
   }
 }

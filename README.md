@@ -4,6 +4,7 @@
 
 
 - [@cypherlab/react-starter-kit](https://github.com/cypherlab/react-starter-kit) - React Starter Kit 
+- [@cypherlab/react-stepbar](https://github.com/cypherlab/react-stepbar) - Stepbar component for tunnel like ux&#x27;s
 - [@cypherlab/react-table](https://github.com/cypherlab/react-table) - Advanced Table
 - [@cypherlab/esm-import](https://github.com/cypherlab/esm-import) - 🔧 ESM import utility
 - [@cypherlab/geocode](https://github.com/cypherlab/geocode) - 🌎 Geocoding utilities
