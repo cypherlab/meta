@@ -23,10 +23,13 @@ const handlebars = (source, data) => {
     pkgs.push(JSON.parse(fs.readFileSync(file)))
   })
 
-  // build the listing in markdown
-  pkgs.forEach(async pkg => {
-    md.list += `\n- [${pkg.name}](${pkg.repository}) - ${pkg.description}`
-  })
+  // build the listing template
+  pkgs
+    // sort by name
+    .sort((a, b) => (a.name.localeCompare(b.name)))
+    .forEach(async pkg => {
+      md.list += `\n- [${pkg.name}](${pkg.repository}) - ${pkg.description}`
+    })
 
   // create final README.md file
   const readme = fs.readFileSync(`./assets/README.md`, 'utf-8')
