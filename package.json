@@ -21,7 +21,7 @@
     "@babel/node": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "execa": "^2.0.4",
-    "handlebars": "^4.2.0",
+    "handlebars": "^4.7.7",
     "meta-yarn": "^1.1.2"
   },
   "dependencies": {}
